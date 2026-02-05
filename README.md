@@ -30,16 +30,7 @@ It uses a semantic search engine to retrieve "atomic intuition cards" (based on 
 
 This project is not a simple wrapper. It implements a full ETL (Extract, Transform, Load) + RAG pipeline:
 
-```mermaid
-graph LR
-    A[Raw Data Source] -->|Miner.py| B(Raw Text)
-    B -->|Refinery.py| C(Atomic Chunks)
-    C -->|Embeddings| D[ChromaDB Vector Store]
-    User -->|Query| E[Streamlit App]
-    E -->|Semantic Search| D
-    D -->|Context| E
-    E -->|Prompt + Context| F[Gemini LLM]
-    F -->|Socratic Answer| E
+
 
 🛠 Tech Stack
 Language: Python 3.10+
