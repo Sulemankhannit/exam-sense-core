@@ -1,3 +1,6 @@
+Here is the full, merged text for your `README.md` file.
+
+```markdown
 # 🧠 Exam Sense AI (The Intuition Engine)
 
 > **"Don't memorize. Understand."**
@@ -46,16 +49,31 @@ This project is not a simple wrapper. It implements a full **ETL (Extract, Trans
 git clone [https://github.com/Sulemankhannit/exam-sense-core.git](https://github.com/Sulemankhannit/exam-sense-core.git)
 cd exam-sense-core
 
-2. Install Dependencies
+```
+
+### 2. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 
-3. Configure Secrets
-Create a .streamlit folder and a secrets.toml file to store your API key securely:
+```
 
-File: .streamlit/secrets.toml
+### 3. Configure Secrets
+
+Create a `.streamlit` folder and a `secrets.toml` file to store your API key securely:
+
+**File:** `.streamlit/secrets.toml`
+
+```toml
 GEMINI_API_KEY = "YOUR_GOOGLE_API_KEY_HERE"
-4. Build the Brain (Optional)
+
+```
+
+### 4. Build the Brain (Optional)
+
 If you want to regenerate the database from scratch, run the ETL pipeline:
+
+```bash
 # Extract raw data
 python miner.py
 
@@ -64,30 +82,42 @@ python refinery.py
 
 # Create Vector Embeddings
 python engine.py
-5. Run the App
+
+```
+
+### 5. Run the App
+
+```bash
 streamlit run app.py
 
-📂 Project Structure
-data/: Stores the raw text and the ChromaDB vector indices.
+```
 
-miner.py: The "Extraction" layer of the ETL pipeline.
+---
 
-refinery.py: The "Transformation" layer (Cleaning & Chunking).
+## 📂 Project Structure
 
-engine.py: The logic for embedding and indexing the data.
+* `data/`: Stores the raw text and the ChromaDB vector indices.
+* `miner.py`: The "Extraction" layer of the ETL pipeline.
+* `refinery.py`: The "Transformation" layer (Cleaning & Chunking).
+* `engine.py`: The logic for embedding and indexing the data.
+* `app.py`: The main application logic and User Interface.
 
-app.py: The main application logic and User Interface.
+---
 
-🔮 Future Roadmap
-[ ] Add support for "Feynman Lectures" data source.
+## 🔮 Future Roadmap
 
-[ ] Implement a "Quiz Mode" to test understanding.
+* [ ] Add support for "Feynman Lectures" data source.
+* [ ] Implement a "Quiz Mode" to test understanding.
+* [ ] Add LaTeX rendering for complex equations.
+* [ ] Migrate to a specialized cloud vector database (e.g., Pinecone) for scale.
 
-[ ] Add LaTeX rendering for complex equations.
+---
 
-[ ] Migrate to a specialized cloud vector database (e.g., Pinecone) for scale.
+## 🤝 Credits
 
-🤝 Credits
-Core Data Source: Based on the open-source educational content of 3Blue1Brown.
+* **Core Data Source:** Based on the open-source educational content of **3Blue1Brown**.
+* **Developed by:** Suleman Khan
 
-Developed by: Suleman Khan
+```
+
+```
