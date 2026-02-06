@@ -11,7 +11,7 @@ It does **not** retrieve textbook paragraphs.
 
 Instead, it retrieves *“Aha!” moments of discovery*.
 
-This system is designed to teach physics and mathematics through **intuition, visualization, and guided reasoning** — not rote memorization.
+This system is designed to teach physics and mathematics through **intuition,and guided reasoning** — not rote memorization.
 
 At its core, Exam Sense AI is a **Retrieval-Augmented Generation (RAG)** engine that turns conceptual insights into Socratic-style explanations.
 
@@ -57,16 +57,6 @@ You *discover* the concept before naming it.
 
 ---
 
-### 🎥 Code-Generated Intuition
-
-The core intuition comes from programmatically generated mathematical animations (not hand-drawn illustrations).
-
-This ensures:
-
-- Mathematical rigor  
-- Precise geometry  
-- Reproducible visual reasoning  
-
 ---
 
 ## 🧠 How It Works
@@ -77,10 +67,7 @@ Exam Sense AI uses:
 - A Large Language Model (Google Gemini)
 - Socratic synthesis to build explanations
 
-This creates a learning flow like:
 
-
-Not the reverse.
 
 ---
 
@@ -106,13 +93,6 @@ This is a **full ETL + RAG pipeline**, not a wrapper.
 - **Embeddings:** Sentence Transformers (HuggingFace)
 - **Frontend:** Streamlit
 
----
-
-Yep — your Markdown broke because multiple sections got merged into one code block and headings lost their structure.
-
-Here’s the **fixed, clean, copy-paste-ready LAST PART** starting from **Installation & Setup onward** — just replace everything from `## 🚀 Installation & Setup` downward with this:
-
----
 
 ````markdown
 ## 🚀 Installation & Setup
