@@ -172,7 +172,7 @@ app.py       → Streamlit UI + RAG logic
 * [ ] Quiz mode for active recall
 * [ ] LaTeX rendering for equations
 * [ ] Cloud vector DB (Pinecone / equivalent)
-* [ ] Behavioral diagnostics (JEE Doctor)
+
 
 ---
 
