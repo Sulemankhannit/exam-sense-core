@@ -180,7 +180,7 @@ app.py       → Streamlit UI + RAG logic
 
 **Core intuition source:** 3Blue1Brown open educational content
 
-**Developed by:** Suleman Khan
+**Developed by:** Suleman Khan & Sahil Rizi
 
 ```
 
